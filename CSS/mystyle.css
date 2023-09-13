@@ -26,10 +26,25 @@ body{
 }
 .nav{
     background-color: rgb(43, 42, 42);
-
+    padding:10px;
 }
 .nav a{
-    padding:5px;
-    margin:5px;
+    padding:10px;
+    text-decoration: none;
+    margin:15px;
+    color:#fff;
+}
+.nav a:hover{
+    background-color: #656464;
+}
+.row{
+    background-color: #282a35;
+    background-image: url(../Images/bg2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.row h1{
+    padding:100px;
+    text-align: center;
     color:#fff;
 }
